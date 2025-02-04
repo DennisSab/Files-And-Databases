@@ -23,5 +23,5 @@ This project was developed as part of the **HY-360: Files and Databases** course
 This project was developed by a team of three students:
 
 [Ntenis Sampani] <br>
-[Karolos Viperman]
-[Manousos Mavroudis]
+[Karolos Viperman] <br>
+[Manousos Mavroudis] <br>
