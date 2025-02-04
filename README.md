@@ -1,5 +1,6 @@
 🎟 Ticketάκη – Concert Ticket Booking System
 📌 Project Overview
+
 Ticketάκη is a database-driven application designed to manage ticket reservations for concert venues. Built using Java, JDBC/ODBC, and MySQL/MariaDB, the system allows users to browse events, purchase tickets, and manage reservations through a graphical interface (Java Swing / Java Servlets).
 
 This project was developed as part of the HY-360: Files and Databases course during the Winter Semester 2023.
