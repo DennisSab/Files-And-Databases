@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketάκη</title>
+    <link rel="stylesheet" href="css/dashboardStyles.css">
+    <script src="js/customer.js" defer></script>
+    <script src="js/login.js" defer></script>
+    <script src="js/booking.js" defer></script>
+    <script src="js/ticket.js" defer></script>
+</head>
+<body onload="loadEvents(); loadBookings();">
+    <br>
+    <div>
+        <img src="images/ticketaki.png" alt="logo_image">
+    </div>
+    <main>
+        <div class="dashboard-container">
+            <h2>All Events</h2>
+            <table class="events-table" id="events_table"></table>
+
+            <div id="book_event"></div>
+
+            <hr>
+
+            <h2>All Bookings</h2>
+            <table class="bookings-table" id="bookings_table"></table>
+
+            <div id="cancel_booking"></div>
+
+            <hr>
+
+            <button type="button" class="btn secondary" id="logout" onclick="logout()">Log Out</button>
+        </div>
+    </main>
+</body>
+</html>

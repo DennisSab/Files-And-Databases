@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketάκη</title>
+    <link rel="stylesheet" href="css/adminStyles.css">
+    <script src="js/login.js" defer></script>
+    <script src="js/admin.js" defer></script>
+    <script src="js/event.js" defer></script>
+    <script src="js/ticket.js" defer></script>
+    <script src="js/booking.js" defer></script>
+</head>
+<body onload="admin()">
+    <br>
+    <div>
+        <img src="images/ticketaki.png" alt="logo_image">
+    </div>
+    <main>
+        <div class="admin-container">
+            <h2>All Events</h2>
+            <table id="events_table" class="events-table"></table>
+
+            <hr>
+
+            <h2>Create New Event</h2>
+            <form id="create-event-form">
+                <input type="number" class="hidden" id="admin_id" name="admin_id">
+                <div class="input-group">
+                    <label for="event-name">Event Name</label>
+                    <input type="text" id="event-name" name="name" placeholder="Enter event name" required>
+                </div>
+                <div class="input-group">
+                    <label for="event-date">Date</label>
+                    <input type="date" id="event-date" name="date" required>
+                </div>
+                <div class="input-group">
+                    <label for="event-hour">Hour</label>
+                    <input type="time" id="event-hour" name="time" required>
+                </div>
+                <div class="input-group">
+                    <label for="event-capacity">Capacity</label>
+                    <input type="text" id="event-capacity" name="capacity" placeholder="Enter capacity" min="1" required>
+                </div>
+                <div class="input-group">
+                    <label for="event-type">Type</label>
+                    <select id="event-type" name="type">
+                        <option value="" disabled selected>Choose type</option>
+                        <option value="Theater">Theater</option>
+                        <option value="Concert">Concert</option>
+                        <option value="Sports Event">Sports Event</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="event-refund">Refund Policy</label>
+                    <select id="event-refund" name="refund">
+                        <option value="" disabled selected>Choose policy</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                </div>
+            </form>
+
+            <div class="input-group">
+                <label for="event-name">General Tickets</label>
+                <input type="text" id="general_amount" placeholder="Enter general ticket amount" required>
+                <br>
+                <br>
+                <input type="text" id="general_price" placeholder="Enter general ticket cost" required>
+            </div>
+            <div class="input-group">
+                <label for="event-name">VIP Tickets</label>
+                <input type="text" id="vip_amount" placeholder="Enter VIP ticket amount" required>
+                <br>
+                <br>
+                <input type="text" id="vip_price" placeholder="Enter VIP ticket cost" required>
+            </div>
+
+            <br>
+            <button type="submit" class="btn" id="create-event" onclick="create_Event()">Create Event</button>
+            <br>
+            <br>
+
+            <hr>
+
+            <button type="button" class="btn secondary" id="logout" onclick="logout()">Log Out</button>
+        </div>
+    </main>
+</body>
+</html>
