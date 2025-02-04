@@ -18,3 +18,10 @@ This project was developed as part of the **HY-360: Files and Databases** course
 - **Programming Language**: Java  
 - **Database**:  MySQL  
 - **Technologies Used**: JDBC / ODBC, Java Swing, Java Servlets  
+
+👥 Team
+This project was developed by a team of three students:
+
+[Ntenis Sampani] <br>
+[Karolos Viperman]
+[Manousos Mavroudis]
