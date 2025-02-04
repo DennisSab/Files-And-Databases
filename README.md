@@ -19,12 +19,12 @@ This project was developed as part of the **HY-360: Files and Databases** course
 - **Database**:  MySQL  
 - **Technologies Used**: JDBC / ODBC, Java Swing, Java Servlets  
 
-👥 Team
+## 👥 Team
 This project was developed by a team of three students:
 
 [Ntenis Sampani] <br>
 [Karolos Viperman] <br>
 [Manousos Mavroudis] <br>
 
-📜 License
+## 📜 License 
 This project is for educational purposes and not intended for commercial use.
