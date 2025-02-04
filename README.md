@@ -25,3 +25,6 @@ This project was developed by a team of three students:
 [Ntenis Sampani] <br>
 [Karolos Viperman] <br>
 [Manousos Mavroudis] <br>
+
+📜 License
+This project is for educational purposes and not intended for commercial use.
